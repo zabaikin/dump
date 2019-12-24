@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^9.1.6",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-markdown": "^4.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cross-env": "^6.0.3"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 3000"
   },
   "keywords": [],
   "author": "Pavlo Zabaikin",
